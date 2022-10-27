@@ -23,7 +23,6 @@ export default {
     const fetchproduct = await fetch("https://fakestoreapi.com/products/3");
     const data = await fetchproduct.json();
     this.product = data;
-    console.log(this.product);
   },
 };
 </script>
